@@ -94,7 +94,7 @@ h1 {
 }
 .android1:hover .mid {
   border-radius: 40%;
-  animation: movetorso 2s infinite;
+  animation: movemid 2s infinite;
 }
 .android1:hover .leftarm {
   animation: moveleftarm 2s infinite;
@@ -178,7 +178,7 @@ h1 {
   100% {transform: rotate(0deg);}
 }
 
-@keyframes movetorso {
+@keyframes movemid {
   from {transform: rotate(0deg);}
   to {transform: rotate(360deg);}
 }
